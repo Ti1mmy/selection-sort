@@ -3,7 +3,7 @@ def swap(a, b):
     my_list[a] = my_list[b]
     my_list[b] = temp
 
-my_list = [1, 3, 5, 8, 2, 9, 7]
+my_list = [1, 3, 5, 8, 2, 9, 7, 3, 4, 1, 6]
 
 for i in range(len(my_list)):
     min_index = i
